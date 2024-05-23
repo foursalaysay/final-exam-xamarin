@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Add">
+    <ContentPage.Content>
+        <ScrollView>
+
+
+            <StackLayout>
+                <Label Text="Employee Record Data!"
+         VerticalOptions="CenterAndExpand" 
+         HorizontalOptions="CenterAndExpand" />
+
+                <StackLayout>
+                    <Label Text="Employee Number:" FontAttributes="Bold" />
+                    <Entry x:Name="empNumberEntry" IsReadOnly="True" />
+
+                    <Label Text="Employee Name:" />
+                    <Entry x:Name="empNameEntry" IsReadOnly="True" />
+
+                    <Label Text="Hours Worked:" />
+                    <Entry x:Name="hoursWorkedEntry" IsReadOnly="True" />
+
+                    <Label Text="Gross Income:" />
+                    <Entry x:Name="empStatusEntry" IsReadOnly="True" />
+
+                    <Label Text="Bonus:" />
+                    <Entry x:Name="civilStatusEntry" IsReadOnly="True" />
+
+                    <Label Text="Deduction:" />
+                    <Entry x:Name="ratePerHourEntry" IsReadOnly="True" />
+
+                    <Label Text="Net Income:" />
+                    <Entry x:Name="basicIncomeEntry" IsReadOnly="True" />
+
+                    
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

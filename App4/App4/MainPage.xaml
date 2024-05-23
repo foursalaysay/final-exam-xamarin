@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.MainPage">
+
+    <ScrollView>
+        
+   
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Employee Data" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+            <Label Text="Employee ID:"/>
+            <Entry x:Name="empId"/>
+
+            <Label Text="Employee Name:"/>
+            <Entry x:Name="empName"/>
+
+            <Label Text="Hours Worked:"/>
+            <Entry x:Name="hoursWork"/>
+
+            <Button Text="Add Record" Clicked="Button_Clicked"/>
+            <Button Text="Update Record" Clicked="Button_Clicked_1"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
